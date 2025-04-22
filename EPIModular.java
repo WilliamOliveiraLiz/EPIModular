@@ -79,7 +79,7 @@ public class EPIModular {
         input.nextLine();
         String entrada;
         do {
-            System.out.print("Digite os dados (ex: \"Capacete - 20 unidades - Proteção para a cabeça\"): ");
+            System.out.print("Digite os dados: ");
             entrada = input.nextLine().trim();
             if (entrada.isEmpty()) {
                 System.out.println("Cadastro inválido. O campo não pode estar vazio.");
